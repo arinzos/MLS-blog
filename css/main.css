@@ -1,0 +1,681 @@
+
+/*BELOW IS THE STYLING FOR THE HOME PAGE*/
+
+/*below is the styling for search and sign in button*/
+
+.btn {
+  text-align: right;
+  margin-top: 3.5rem;
+}
+
+.btn [type="button"] {
+  background-color: red;
+  color: white;
+  border-color: red;
+  box-shadow : 1px 1px black;
+  cursor: pointer;
+}
+
+.input {
+  position: relative;
+  padding: 2px;
+  height: 3vh;
+  border-radius: 5px;
+  margin-top: 0.625rem;
+  min-width: 323px;
+}
+
+.input [type="button"] {
+  background-color: red;
+  color: white;
+  border-color: red;
+  align-content: right;
+  box-shadow : 1px 1px black;
+  cursor: pointer;
+}
+
+.input [type="search"] {
+width:130px;
+margin-left: 0.3125rem;
+border-style: none;
+display: inline-flex;
+}
+
+/*below is the styling for contacts and follow us*/
+.contact {
+  border-style: ridge;
+  clear: left;
+  height: 15vh; 
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0.9375rem;
+  background-color: black;
+  color: white;
+}
+
+.contact [type="button"] {
+  background-color: red;
+  border-color: red;
+  color: white;
+  margin-bottom: 1.875rem;
+  box-shadow : 1px 1px black;
+  cursor: pointer;
+}
+.contact [type="email"] {
+  width: 30vw;
+}
+.subcontact {
+  padding-top: 9px;
+  padding-left: 5px;
+ display: inline-block;
+
+}
+
+.followus {
+  padding: 0 5px;
+  min-width: 95%;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+/* styling for social media*/
+.fa{
+  padding: 2px;
+  font-size: 0.1875rem;
+  width: 4vw;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50px;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.fa:hover {
+  opacity: 0.4;
+}
+/*styling for image slide show*/
+
+.div{
+  min-width: 255px;
+  max-width:617px ;
+  margin-bottom: 0;
+  height: fit-content;
+  display: block;
+}
+
+.slideshow-container img{
+min-height: 33vh;
+width: 100%;
+max-height: 57vh;
+border-style: ridge;
+margin-top: 0.3125rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+}
+
+/*below is the styling for aside menu*/
+
+.asidenews {
+  padding: 7px;
+  padding-top: 25px;
+  min-width: 318px;
+  height: fit-content;
+  display: block;
+  margin-bottom: 1.875rem;
+  background-color: black;
+  border-radius: 5px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.asidenews [type="button"] {
+  background-color: red;
+  border-color: red;
+  color: rgb(124, 113, 113);
+  margin-bottom: 1.875rem;
+}
+
+.asidenews h2 {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  box-shadow : 5px 5px black;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  
+
+}
+
+.asidenews small,
+.jobs small {
+  color: red;
+  font-weight: bolder;
+}
+
+/*below is the styling for contributors*/
+
+.headingcontributors {
+  background-color: red;
+  text-align: center;
+ min-width: 318px;
+  padding: 0 6px;
+  height: 5vh;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  box-shadow: 2px 5px black;
+}
+.readmore{
+  background-color: red;
+  color: #ffffff;
+  width: 80px;
+  font-size: small;
+  box-shadow: 2px 3px black;
+  cursor: pointer;
+  border-radius:5px ;
+  text-align: center;
+}
+.readmore:hover,
+.readmore:active{
+  background-color: blue;
+  border-bottom: red;
+}
+.contributors{
+  height: 50%;
+  width: 100%;
+  border-style: ridge;
+}
+.contributorcontents img{
+  border-style: ridge;
+  width: 100%;
+  min-height: 30vh;
+  max-height: 70vh;
+}
+.contributors a {
+  color: black;
+  text-decoration: none;
+}
+
+.contributors a:hover,
+.contributors a:focus {
+color: red;
+}
+.contributors a:active {
+  color: yellow;
+}
+
+.contributorcontents {
+  padding: 10px;
+  text-align: justify;
+  width: 100%;
+  
+}
+.contributorcontents small {
+  font-weight: bolder;
+}
+/*below is the styling for jobs and internship*/
+
+.headingjobs {
+  background-color: red;
+  text-align: center;
+ min-width: 318px;
+  padding: 0 6px;
+  height: 5vh;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  box-shadow: 2px 5px black;
+}
+
+.jobs {
+  padding: 7px;
+  padding-top: 25px;
+  min-width: 318px;
+  height: fit-content; 
+  display: block;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  border-radius: 5px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.jobs h2{
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  box-shadow : 5px 5px black;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+
+}
+
+.internship {
+  padding: 7px;
+  padding-top: 25px;
+  min-width: 318px;
+  height: fit-content; 
+  display: block;
+  margin-bottom: 0.5rem;
+  background-color:rgb(51, 49, 49);
+  border-radius: 5px;
+  text-align: justify;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.internship [type="button"] {
+  background-color: red;
+  border-color: red;
+  color: white;
+  margin-bottom: 1.875rem;
+  box-shadow : 2px 3px black;
+}
+.internship h3{
+  color: white;
+  text-align: center;
+  margin:5px 0;
+
+}
+
+.internship h2 {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  box-shadow : 5px 5px black;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  font-size: 16px;
+
+  
+}
+.jobs a,
+.internship a{
+  color: white;
+}
+
+/*below is the styling for scholarship*/
+
+.headingscholarships {
+  background-color: red;
+  text-align: center;
+ min-width: 318px;
+  padding: 0 6px;
+  height: 5vh;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  box-shadow: 2px 5px black;
+}
+
+.btc{
+  color: white;
+  background-color: black;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-left: 0;
+  padding: 5px;
+  border-radius: 10px;
+  width: 50%;
+  height: 60px;
+  float: left;
+  cursor: pointer;
+  box-shadow: 1px 2px red;
+}
+.btc:hover,
+.bt:hover{
+  color: white;
+  background-color: red;
+  transition: 1500ms;
+
+}
+ul{
+  padding: 4px;
+  list-style: none;
+}
+.bt{
+  color: white;
+  background-color: black;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-left: 0;
+  padding: 5px;
+  border-radius: 10px;
+  width: 50%;
+  cursor: pointer;
+  height: 60px;
+  float: left;
+  box-shadow: 1px 2px red;
+}
+
+
+
+@media only screen and (min-width:40rem){
+  
+/*BELOW IS THE STYLING FOR THE HOME PAGE*/
+
+/*below is the styling for search and sign in button*/
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  text-align: right;
+  margin-top: 6rem;
+}
+
+.btn [type="button"] {
+  background-color: red;
+  color: white;
+  border-color: red;
+  box-shadow : 2px 2px black;
+  cursor: pointer;
+}
+
+.input {
+  position: relative;
+  align-content: right;
+  text-align: right;
+  padding: 2px;
+  height: 6vh;
+  border-radius: 5px;
+  margin-top: 0.625rem;
+}
+
+.input [type="button"] {
+  background-color: red;
+  color: white;
+  border-color: red;
+  align-content: right;
+  box-shadow : 2px 2px black;
+  cursor: pointer;
+}
+
+.input [type="search"] {
+  align-content: right;
+  border-style: ridge;
+}
+
+/*below is the styling for contacts and follow us*/
+.contact {
+  height: 8vh;
+  padding-left: 3px;
+  border-radius: 10px;
+  margin-top: 0.9375rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  border-color: black;
+
+}
+
+.contact [type="button"] {
+  background-color: red;
+  border-color: red;
+  color: white;
+  margin-bottom: 1.875rem;
+  box-shadow : 2px 2px black;
+  cursor: pointer;
+}
+
+.subcontact {
+  height:9vh;
+  width: 60%;
+  text-align: left;
+  color: azure;
+}
+.subcontact [type="email"] {
+  width: 15vw;
+  display: inline-flex;
+
+}
+
+.followus {
+  text-align: right;
+  position: absolute;
+  padding-top: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+/* styling for social media*/
+.fa{
+  padding: 2px;
+  font-size: 0.1875rem;
+  width: 2vw;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50px;
+  z-index: 100;
+  background-color: white;
+}
+
+.fa:hover {
+  opacity: 0.4;
+}
+/*styling for image slide show
+*/
+.div{
+  max-width: 100%;
+  height: 121vh;
+  margin-top: 0.3125rem;
+}
+.main{ 
+width: 50%;
+ height: fit-content;
+  margin-top: 0.3125rem;
+  float: left;
+}
+.slideshow-container img{
+max-height: 63vh;
+width: 100%;
+margin-right: 5px;
+float: left;
+}
+
+/*below is the styling for aside menu*/
+
+.asidenews {
+  padding: 15px;
+ width: 49%;
+ min-width: 285px;
+  margin-top: 0.3125rem;
+  background-color:black;
+ border-radius: 10px;
+ box-shadow : 2px 5px red ;
+ float: right;
+ height: fit-content;
+}
+
+.asidenews [type="button"] {
+  background-color: red;
+  border-color: red;
+  color: white;
+  margin-bottom: 1.875rem;
+}
+
+.asidenews h2 {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  box-shadow : 5px 5px black;
+  border-radius: 5px;
+  max-width: 184px;
+  margin-bottom: 1.875rem;
+  cursor: pointer;
+}
+
+.asidenews small {
+  color: red;
+  font-weight: bolder;
+}
+
+/*below is the styling for contributors*/
+
+.headingcontributors {
+  background-color: red;
+  height: 5vh;
+  color: white;
+  padding-left: 5px;
+  margin-bottom: 1.875rem;
+  clear: both;
+  box-shadow : 5px 5px black;
+}
+
+.contributors{
+  min-height: 400vh;
+  max-height: 500vh;
+  max-width: 100%;
+  min-width: 618px;
+  border-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contributors a {
+  color: black;
+  text-decoration: none;
+}
+
+.contributors a:hover,
+.contributors a:focus {
+color: red;
+}
+.contributors a:active {
+  color: yellow;
+}
+
+.contributorcontents {
+  padding: 10px;
+  text-align: left;
+  max-width: 50%;
+  float: left;
+}
+.contributorcontents img{
+  width: 100%;
+  min-height: 30vh;
+  max-height: 60vh;
+
+}
+.readmore{
+  background-color: red;
+  color: #ffffff;
+  width: 80px;
+  font-size: small;
+  box-shadow: 2px 3px black;
+  cursor: pointer;
+  border-radius:5px ;
+  text-align: center;
+}
+.readmore:hover,
+.readmore:active{
+  background-color: blue;
+  border-bottom: red;
+}
+.contributorcontents small {
+  color: blue;
+  font-weight: bolder;
+}
+/*below is the styling for jobs and internship*/
+
+.headingjobs {
+  background-color: red;
+  height: 5vh;
+  color: white;
+  padding-left: 5px;
+  margin-bottom: 1.875rem;
+  clear: both;
+  box-shadow : 5px 5px black;
+}
+
+.jobs {
+  clear: left;
+  color: black;
+  padding: 15px;
+  height: fit-content;
+  width: 50%;
+  min-width: 285px;
+  float: left;
+  border-style: ridge;
+  margin-bottom: 1.875rem;
+  background-color: black;
+  border-radius: 15px;
+  overflow: auto;
+  box-shadow : 2px 3px red;
+}
+
+.jobs h2{
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  box-shadow : 5px 5px black;
+  border-radius: 5px;
+  max-width: 184px;
+  margin-bottom: 1.875rem;
+  cursor: pointer;
+}
+.jobs small {
+  color: red;
+  font-weight: bolder;
+}
+
+.internship {
+  height: fit-content;
+  padding: 15px;
+  width: 48%;
+  min-width: 285px;
+  float: right;
+  border-style: ridge;
+  margin-bottom: 10rem;
+  background-color:rgb(51, 49, 49);
+  border-radius: 15px;
+  box-shadow : 2px 3px red;
+}
+
+.internship [type="button"] {
+  background-color: red;
+  border-color: red;
+  color: white;
+  margin-bottom: 1.875rem;
+  box-shadow : 2px 3px black;
+}
+.internship h3{
+  color: white;
+}
+
+.internship h2 {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  width: 38vw;
+  padding: 2px;
+  box-shadow : 5px 5px black;
+  cursor: pointer;
+  
+}
+.jobs a,
+.internship a{
+  color: white;
+}
+
+
+}

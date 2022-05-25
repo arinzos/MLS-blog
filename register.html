@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="shared.css">
+  </head>
+  <body>
+    
+     <!--below is the backdrop-->
+ 
+     <div class="backdrop"></div>
+
+    <!--below is the banner and navigation bar-->
+    
+<header class="main-header">
+  <div>
+    <button class="sidebar">
+      <span class="toggle-button"></span>
+      <span class="toggle-button"></span>
+      <span class="toggle-button"></span>
+    </button>
+    <a href="index.html" class="main-header-brand">
+<img src="../images/banner.png" alt="our logo">
+    </a>
+  </div>
+  <nav class="main-nav">
+    <ul class="main-nav-items">
+<li class="main-nav-item main-nav-item-active"><a href="#home">Home</a></li>
+<li class="main-nav-item"><a href="index.html#news">News</a></li>
+<li class="main-nav-item"><a href="#contact">Contact</a></li>
+<li class="main-nav-item"><a href="#services">Services</a></li>
+<li class="main-nav-item"><a href="#about">About</a></li>
+    </ul>
+  </nav>
+</header>
+<nav class="mobile-nav">
+  <ul class="mobile-nav-items">
+      <li class="mobile-nav-item mobile-nav-item-active"><a href="#home">Home</a></li>
+      <li class="mobile-nav-item"><a href="index.html#news">News</a></li>
+      <li class="mobile-nav-item"><a href="#contact">Contact</a></li>
+      <li class="mobile-nav-item"><a href="#services">Services</a></li>
+      <li class="mobile-nav-item"><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+<!-- below is for form-->
+   
+<div class="mymainform">
+  <br>
+    <hr>
+      <div class="myform">
+        <h3>Register Here</h3>
+    <form action="index.html" class="a">
+      <div class="form">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="Firstname" id="firstname" placeholder="Please enter your Firstname.." />
+      </div>
+      <br />
+      <div class="form">
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Please enter your Lastname.." />
+      </div>
+      <br />
+      <div class="form">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com.."/>
+      </div>
+      <br />
+      <div class="form">
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday" id="birthday" />
+      </div>
+      <br />
+      <div class="form">
+        <label for="age">Age:</label>
+        <input type="number" name="Age" value="18" />
+      </div>
+      <br />
+      <div class="form">
+        <label for="gender">Gender:</label>
+        <select name="gender">
+          <option value="select" required="select">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+      <br />
+      <div class="submit">
+      <input type="submit" value="Register" id="submit" />
+      </div>
+      <div class="link">
+      <a href="log in.html"><p>Sign in Here!</p></a>
+      <a href="index.html"><p>Home</p></a>
+      </div>
+      </div>
+    </form>
+    <hr>
+    <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="foot">
+  <p>Terms and Conditions| All rights reserved | Copyright &copy;2022 Arinzos | Privacy | Contact us</p>
+</footer>
+
+<!-- below is the javascript-->
+<script type="text/javascript" src="../JavaScript/script.js"></script>
+
+  </body>
+</html>
